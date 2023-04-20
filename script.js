@@ -12,6 +12,7 @@ const getSum = () => {
 		 sum += parseInt(item.innerText);
 	});
 	let row =document.createElement("tr");
+	row.setAttribute('id',"ans");
 	let cell1 = document.createElement("td");
 	cell1.innerText = "Total is: ";
 	let cell2 = document.createElement("td");
